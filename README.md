@@ -7,3 +7,9 @@ When you set the `JsonConvert.DefaultSettings` to have a snake-case naming strat
 [vstest](https://github.com/Microsoft/vstest/) uses Newtonsoft.Json, but it doesn't explicity set its serialization settings.
 When code running inside that domain sets the serialization settings it breaks the communciation between the vstest host and
 the actual test runner because all communication is using a JSON protocol.
+
+## Running this
+
+* `dotnet restore`
+* `dotnet build`
+* `dotnet test` <-- hangs here
