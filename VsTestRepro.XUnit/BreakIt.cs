@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Xunit;
 
-namespace VsTestRepro.Tests
+namespace VsTestRepro.XUnit
 {
     public class BreakIt
     {
