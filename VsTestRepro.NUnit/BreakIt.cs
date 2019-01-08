@@ -2,7 +2,7 @@ using NUnit.Framework;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Tests
+namespace VsTestRepro.NUnit
 {
     public class BreakIt
     {
